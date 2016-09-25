@@ -33,6 +33,7 @@ header {
 				padding:2em;
 			}
 	}
+}
 
 nav{
 	width:85%;
@@ -40,26 +41,26 @@ nav{
 	float: right;
 	height: 50px;
 		
-		ul{
-			list-style: none;
-			width: 100%;
+	ul{
+		list-style: none;
+		width: 100%;
+		
+		li{
+			display:inline-block;
+			padding:1em 2em;
 			
-			li{
-				display:inline-block;
-				padding:1em 2em;
+			a{
+				text-decoration:none;
+				color:white;
 				
-				a{
-					text-decoration:none;
-					color:white;
-					
-					&:hover{
-						text-decoration:underline;
-					}
+				&:hover{
+					text-decoration:underline;
 				}
 			}
 		}
 	}
 }
+
 section {
 	width: 100%;
 }
@@ -207,9 +208,63 @@ table{
 			background:$hadAndFoot;
 		}
 	
-	tbody{
-		.black{
-			color: #000;
+		tbody{
+			.black{
+				color: #000;
+			}
 		}
-	}
 }
+.sec5{
+	text-align: center;
+	background:$bckgSection;
+	padding: 20px;
+	margin: 20px auto;
+	
+		h1{
+			font-size: 2em;
+			color:$fontColor;
+			text-transform:uppercase;
+			margin-bottom: 2em;
+		}
+	
+		iframe,form {
+			display: inline-block;
+			vertical-align:top;
+			
+		}
+		form {
+			background: $orangeColor;
+			width: 35%;
+			padding: 20px;
+			margin-left: 4em;
+		}
+		
+}
+form {
+		input[name="mrs"] {
+			width: 29%;
+			margin-bottom: 20px;
+			padding: 8px;
+		}
+		input[name="name"]{
+			width: 70%;
+			padding: 8px;
+		}
+		input[name="email"],textarea {
+			width: 100%;
+			margin-bottom: 20px;
+			padding: 8px;
+		}
+	
+	}
+
+footer {
+		background: $hadAndFoot;
+		color:#fff;
+		line-height: 2em;
+		text-align: center;
+		
+			span{
+				color: $orangeColor;
+			}
+	}

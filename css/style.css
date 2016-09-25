@@ -26,22 +26,23 @@ header {
       color: white;
       font-size: 1em;
       padding: 2em; }
-  header nav {
-    width: 85%;
-    background-color: #374249;
-    float: right;
-    height: 50px; }
-    header nav ul {
-      list-style: none;
-      width: 100%; }
-      header nav ul li {
-        display: inline-block;
-        padding: 1em 2em; }
-        header nav ul li a {
-          text-decoration: none;
-          color: white; }
-          header nav ul li a:hover {
-            text-decoration: underline; }
+
+nav {
+  width: 85%;
+  background-color: #374249;
+  float: right;
+  height: 50px; }
+  nav ul {
+    list-style: none;
+    width: 100%; }
+    nav ul li {
+      display: inline-block;
+      padding: 1em 2em; }
+      nav ul li a {
+        text-decoration: none;
+        color: white; }
+        nav ul li a:hover {
+          text-decoration: underline; }
 
 section {
   width: 100%; }
@@ -154,5 +155,44 @@ table {
     background: #374249; }
   table tbody .black {
     color: #000; }
+
+.sec5 {
+  text-align: center;
+  background: #f3f7f9;
+  padding: 20px;
+  margin: 20px auto; }
+  .sec5 h1 {
+    font-size: 2em;
+    color: #797979;
+    text-transform: uppercase;
+    margin-bottom: 2em; }
+  .sec5 iframe, .sec5 form {
+    display: inline-block;
+    vertical-align: top; }
+  .sec5 form {
+    background: #f75311;
+    width: 35%;
+    padding: 20px;
+    margin-left: 4em; }
+
+form input[name="mrs"] {
+  width: 29%;
+  margin-bottom: 20px;
+  padding: 8px; }
+form input[name="name"] {
+  width: 70%;
+  padding: 8px; }
+form input[name="email"], form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 8px; }
+
+footer {
+  background: #374249;
+  color: #fff;
+  line-height: 2em;
+  text-align: center; }
+  footer span {
+    color: #f75311; }
 
 /*# sourceMappingURL=style.css.map */
