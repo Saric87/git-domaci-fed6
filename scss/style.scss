@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html,body {
+	width: 100%;
+} 
+nav ul {
+	line-height: 4em;
+	background: #374249;
+}
+nav ul li {
+	display: inline-block;
+	width: 7%;
+	color: white;
+	padding-left: 1.2em;
+}
+.newyork {
+	background: #f75311;
+	width: 16%;
+	font-size: 19px;
+}
+.newyork img {
+	width: 16%;
+	vertical-align: middle;
+}
+
+.cover_slika {
+	background: url(../slike/intro.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 44.8em;
+	text-align: center;
+	padding-top: 30%;
+}
+.cover_slika p { 
+	font-size: 3em;
+    color: white;
+    width: 65%;
+    margin: 0 auto;
+}
+#mali_p {
+	font-size: 1.3em;
+}
+
+.dugmici {
+	line-height: 4.5em;
+	padding: 0.5em 0em 0.5em 59em;
+}
+.dugmici button{
+	border-radius: 24px;
+	line-height: 3em;
+    padding: 0 2em;
+    color: #797979;
+    background: white;
+    margin-right: 2em;
+}
+
+section {
+	background: #f3f7f9;
+	padding: 1.3em 0 2.5em 13em;
+}
+section img {
+	margin-right: 2em;
+	margin-top: 2em;
+}
+.glupost {
+	width: 18.75em;
+	height: 25em;
+}
+
+.tabela {
+	text-align: center;
+}
+table {
+	margin: 0 auto 3em;
+	text-align: center;
+	border-collapse: collapse;
+	width: 45%;
+}
+td,th {
+	border: 1px solid gray;
+	padding: 0.5em;
+	color: white;
+}
+th {
+	background: #f75311;
+}
+td {
+	background: #374249;
+}
+.white {
+	background: white;
+	color: #374249;
+}
+.tabela h3, .svasta h3 {
+	font-size: 1.5em;
+    margin: 1.5em 0;
+    color: #374249;
+}
+.tabela p {
+	color: gray;
+	margin-bottom: 3em;
+}
+
+.svasta {
+	background: #f3f7f9;
+}
+.svasta h3 {
+	text-align: center;
+	padding-top: 1.6em;
+}
+.svasta img {
+	width: 25em;
+    margin: 3em 0 4em 15em;
+}
+form {
+	background: #f75311;
+	display: inline-block;
+	width: 44em;
+	vertical-align: top;
+    margin-top: 3em;
+    margin-left: 5em;
+}
+input, textarea {
+	width: 90%;
+	padding: 0.5em;
+	display: inline-block;
+}
+select {
+	margin: 2em 0em 1em 2.5em;
+	padding: 0.5em;
+	width: 10em;
+}
+input[type=text] {
+	margin: 1em 0em 1em 2.5em;
+	width: 34.43em;
+}
+input[type=email] {
+	margin: 1em 0em 1em 2.5em;
+}
+textarea {
+	margin: 1em 0em 2em 2.5em;
+}
+span {
+	color: #f75311;
+}
+footer {
+	width: 100%;
+	background: #374249;
+	line-height: 2.8em;
+	color: white;
+	text-align: center;
+}
